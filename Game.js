@@ -83,8 +83,8 @@ class Game extends Phaser.Scene {
         ellipse1 = this.add.image(250, 350, 'ellipse_1').setScale(0.3);
         this.tweens.add({
             targets: [ellipse1],
-            x: 450,
-            y: 300,
+            x: 250,
+            y: 350,
             yoyo: false,
             duration: 100,
             ease: 'Sine.easeInOut',
@@ -99,8 +99,8 @@ class Game extends Phaser.Scene {
         ellipse2 = this.add.image(250, 350, 'ellipse_2').setScale(0.3);
         this.tweens.add({
             targets: [ellipse2],
-            x: 450,
-            y: 300,
+            x: 250,
+            y: 350,
             yoyo: false,
             duration: 100,
             ease: 'Sine.easeInOut',
@@ -115,8 +115,8 @@ class Game extends Phaser.Scene {
         ellipse3 = this.add.image(250, 350, 'ellipse_3').setScale(0.3);
         this.tweens.add({
             targets: [ellipse3],
-            x: 450,
-            y: 500,
+            x: 250,
+            y: 350,
             yoyo: false,
             duration: 100,
             ease: 'Sine.easeInOut',
